@@ -17,3 +17,11 @@ python decrypt_pdf.py input.pdf password
 ```
 
 The decrypted PDF will be saved as **input-decrypt.pdf** in the same directory.
+
+
+```bash
+poetry env use python
+poetry shell
+poetry install
+python decrypt_pdf.py input.pdf password
+```

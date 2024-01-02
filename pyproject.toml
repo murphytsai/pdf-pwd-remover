@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pdf-pwd-remover"
+version = "0.1.0"
+description = ""
+authors = ["Murphy Tsai <yftsai.tw@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "pdf_pwd_remover"}]
+
+[tool.poetry.dependencies]
+python = "^3.9.16"
+pypdf2 = "^3.0.1"
+pycryptodome = "^3.19.1"
+pillow = "^10.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
